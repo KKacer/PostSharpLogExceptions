@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PostSharp.Patterns.Diagnostics" Version="6.7.6-preview" />
+    <PackageReference Include="PostSharp.Patterns.Diagnostics.Serilog" Version="6.7.6-preview" />
+  </ItemGroup>
+
+</Project>
